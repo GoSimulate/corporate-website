@@ -1,0 +1,14 @@
+# --- Internal working files — keep out of the public repo ---
+
+# Agent instructions + copy/IP governance: these hold the minimal-disclosure
+# strategy, founder sign-off gates, and internal copy rules. Not for publication.
+CLAUDE.md
+docs/
+
+# Throwaway design-variant mockups and local tooling scratch
+variant-*.html
+.playwright-mcp/
+
+# Scratch screenshots produced during design review
+verify-*.png
+shot-*.png
