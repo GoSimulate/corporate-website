@@ -227,12 +227,6 @@ p:last-child{ margin-bottom: 0; }
   max-width: none;
 }
 
-.hire-mark{
-  font-family: var(--font-mono);
-  font-size: 1rem;
-  margin: 1rem 0 0 0.2rem;
-}
-
 /* header wordmark stays hidden until the hero wordmark scrolls away */
 @supports (animation-timeline: scroll()) {
   .site-header .wordmark{
@@ -401,57 +395,6 @@ section:last-of-type{
   font-size: 0.9rem;
 }
 
-.team-card.open-role{
-  border-style: dashed;
-  border-color: var(--line-strong);
-  background: transparent;
-}
-
-.team-card.open-role .avatar{
-  border-style: dashed;
-  background: transparent;
-  color: var(--text-faint);
-}
-
-/* ---------------- careers ---------------- */
-
-.careers-box{
-  border: 1px solid var(--line-strong);
-  border-radius: 10px;
-  padding: var(--space-4);
-  background:
-    radial-gradient(600px 200px at 0% 0%, var(--accent-glow), transparent 60%),
-    var(--bg-raised);
-  display: grid;
-  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
-  gap: var(--space-4) var(--space-5);
-  align-items: center;
-  margin-top: var(--space-4);
-}
-
-.careers-box h2{
-  max-width: 14ch;
-}
-
-.btn{
-  display: inline-block;
-  margin-top: var(--space-3);
-  padding: 0.75em 1.4em;
-  border: 1px solid var(--accent);
-  border-radius: 6px;
-  color: var(--text);
-  text-decoration: none;
-  font-family: var(--font-mono);
-  font-size: 0.92rem;
-  letter-spacing: 0.02em;
-  transition: background-color 0.15s ease, box-shadow 0.15s ease;
-}
-.btn:hover, .btn:focus-visible{
-  background: var(--accent-glow);
-  box-shadow: 0 0 0 3px var(--accent-glow);
-  text-decoration: none;
-}
-
 /* ---------------- footer ---------------- */
 
 .site-footer{
@@ -498,8 +441,7 @@ section:last-of-type{
 /* ---------------- responsive ---------------- */
 
 @media (max-width: 900px){
-  .section-grid,
-  .careers-box{
+  .section-grid{
     grid-template-columns: minmax(0, 1fr);
     align-items: start;
   }

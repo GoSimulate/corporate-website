@@ -12,7 +12,7 @@ python3 -m http.server 8000
 
 ## Structure
 
-- `index.html` — single-page site: hero, What We Do, Who We Are, Careers, footer
+- `index.html` — single-page site: hero, What We Do, Who We Are, footer
 - `privacy.html` — privacy notice
 - `styles.css` — shared stylesheet (dark technical theme, brand blue `#00B0F0`)
 - `favicon.svg` — blue "O" mark on a dark tile
