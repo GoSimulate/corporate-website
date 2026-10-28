@@ -17,3 +17,8 @@ runtime/** -text -diff
 *.exe binary
 *.tar.bz2 binary
 *.tar.lzma binary
+
+# Pulumi appends this repository's canonical file paths below.
+/.github/workflows/secret-scan.yml gosim-canonical
+/.gitattributes gosim-canonical
+/.github/workflows/canonical-file-guard.yml gosim-canonical
